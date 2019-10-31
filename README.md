@@ -12,7 +12,7 @@ This app is a burger logger with MySQL, Node, Express, Handlebars and Sequelize,
 
 * The app will store every burger in a database, whether devoured or not.
 
-![Image](public/assets/image/eat-da-burger.png)
+
 
 #### Directory structure
 
