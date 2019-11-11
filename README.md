@@ -1,6 +1,6 @@
 # Eat-Da-Burger
 
-### Overview (see `sequelize branch`)
+### Our App
 
 This app is a burger logger with MySQL, Node, Express, Handlebars and Sequelize, and follows the MVC design pattern.
 
@@ -14,43 +14,27 @@ This app is a burger logger with MySQL, Node, Express, Handlebars and Sequelize,
 
 
 
-#### Directory structure
+#### Our Checklist to Run App
 
-All the recommended files and directories should look like the following structure:
+Instructions
 
-```
-.
-├── config
-│   └── config.json
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── models
-│   ├── index.js
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   ├── assets
-│   │   ├── css
-│   │   │   └── burger_style.css
-│   │   ├── img
-│   │   │   └── ...
-│   │   └── js
-│   │       └── burgers.js
-│   └── test.html
-│
-├── schema.sql
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-```
 
+App Setup
+
+
+Created a GitHub repo called burger.
+
+Made a package.json file by running npm init from the command line.
+Installed the Express npm package: npm install express.
+Created a server.js file.
+Installed the Handlebars npm package: npm install express-handlebars.
+Installed MySQL npm package: npm install mysql.
+
+Required the following npm packages inside of the server.js file:
+
+
+express
+
+Minimum Requirements
+
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Hosting on Heroku and adding a README.md are required for this homework. In addition, add this homework to your portfolio, more information can be found below.
